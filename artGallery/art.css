@@ -1,0 +1,61 @@
+* .body {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  background: gray;
+  padding: 1%;
+}
+
+.inputbutton {
+  text-align: center;
+}
+
+.input1 {
+  width: 15rem;
+  padding: 3px;
+  border-radius: 2%;
+}
+
+.button {
+  padding: 2%;
+}
+
+.unorderedList1 {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  color: black;
+}
+
+.list a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  color: black;
+}
+
+.list a:hover {
+  background: white;
+}
+
+.section1{
+  background-image: url(aa1.jpg);
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+}
+
+.pictures {
+  flex: wrap;
+  text-align: center;
+}
+
+.picture1 {
+}
+
+.picture2 {
+}

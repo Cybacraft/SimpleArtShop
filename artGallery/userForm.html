@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+
+    
+    <!-- FORM VALIDATION -->
+    <!-- NOTE: The required attribute ensures input gets filled with data  -->
+      <form id="">
+      <p>1.personal details</p>
+      <p>1.1Name</p>
+      <label></label>
+      <input id="input" type="text" required />
+      <p>1.2Date of birth</p>
+      <label></label>
+      <input id="input" type="date" required/>
+      <p>upload your birth certificate</p>
+      <input id="input" type="file" required/></br>
+
+
+      <p>2.What food category is your favorite?</p>
+      <label for="food">Exotic</label>
+      <input id="input" type="radio" name="food" value="Exotic" />
+      <label for="food">Cultural</label>
+      <input id="input" type="radio" name="food" value="Cultural"/>
+      <label for="food">Foreign</label>
+      <input id="input" type="radio" name="food" value="Foreign"/>
+      <!-- NOTE: The name attribute ensures only one radio input amongst others gets filled with data  -->
+      <!-- NOTE: The value attribute spacifies and returns the value of the input -->
+
+
+      <p>3.Choose your color?</p>
+      <label>color</label>
+      <input id="color" type="color" value="color" />
+
+      <p>4.Which ones do you love doing?</p>
+      <label for="food">Reading</label>
+      <input id="input" type="checkbox" required value="Exotic" />
+      <label for="food">Dancing</label>
+      <input id="input" type="checkbox" required value="Cultural"/>
+      <label for="food">Running</label>
+      <input id="input" type="checkbox" required value="Foreign"/>
+      <label for="food">Travelling</label>
+      <input id="input" type="checkbox" required value="Exotic" />
+      <label for="food">Swimming</label>
+      <input id="input" type="checkbox" required value="Cultural"/>
+      <label for="food">Cooking</label>
+      <input id="input" type="checkbox" required value="Foreign"/>
+
+      <p>5.What is your height?</p>
+      <select name="Height" id="">
+        <option value="">Tall</option>
+        <option value="">Average</option>
+        <option value="">short</option>
+      </select></br></br></br>
+       
+      <p>6.Fill in other details</p>
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+
+      <label>Click here to submit</label><button>Submit</button>
+    </form>
+  </body>
+</html>

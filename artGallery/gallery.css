@@ -1,0 +1,59 @@
+* .body {
+  margin: 0;
+  padding: 0;
+}
+
+.header1 {
+  background: gray;
+  padding: 2%;
+}
+
+.unorderedList1 {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  color: black;
+}
+
+.list a {
+  text-decoration: none;
+  font-family: "Courier New", Courier, monospace;
+  font-weight: 900;
+  color: black;
+}
+
+.list a:hover {
+  background: white;
+}
+
+.pictures {
+  flex: wrap;
+  width: 100%;
+  text-align: center;
+}
+
+.picture1 {
+  width: 180px;
+  height: 180px;
+}
+
+.picture2 {
+  width: 180px;
+  height: 180px;
+}
+
+.picture3 {
+  width: 180px;
+  height: 180px;
+}
+.picture4 {
+  width: 180px;
+  height: 180px;
+}
+
+.picture5 {
+  width: 180px;
+  height: 180px;
+}
